@@ -3,7 +3,10 @@
 ## Setup
 1. Install requirements
   - python3
+  - make python3 the default: [HOWTO on Stack Overflow](https://stackoverflow.com/questions/18425379/how-to-set-pythons-default-version-to-3-3-on-os-x)
   - python packages: pandas, sklearn, fasttext, sqlalchemy, ...
+  - example:
+  `pip3 install pandas`
 2. Configure collector
   - Edit hiit_collector.py.example and save it as hiit_collector.py
 3. Configure PostgreSQL
