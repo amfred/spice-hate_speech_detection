@@ -1,5 +1,8 @@
 #  Automatic hate speech detection
 
+> [!WARNING]
+> This repository is archived and no longer maintained. An audit found no committed credentials; the configuration examples contain placeholders only. However, `collector.py` accepts passwords through command-line arguments and embeds credentials in plain HTTP URLs. This can expose credentials through process listings, logs, proxies, or network traffic. Do not use this collector with real credentials without replacing that behavior with HTTPS and secure secret handling. Rotate any credentials previously used with this code if they might still be valid.
+
 ## Setup
 1. Install requirements
   - python3
